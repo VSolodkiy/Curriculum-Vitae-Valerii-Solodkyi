@@ -1,0 +1,271 @@
+body {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 150%;
+  color: #485268;
+  background-color: #E5E5E5;;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.page {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 0 40px;
+  background-color: white;
+}
+
+/* #region about */
+.about {
+  display: flex;
+  padding: 32px 40px 24px 40px;
+  background-color: #E25544;
+  color: white;
+}
+
+.about_name {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.about_role {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.about_text {
+  margin: 0;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.about_photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+/* #endregion */
+
+/* #region contacts */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts a {
+  color: #485268;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contacts a:hover {
+  color: white;
+  background-color: #E25544;
+}
+/* #endregion */
+
+/* #region info */
+.info {
+  border-top: 1px solid #DEE2ED;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_title {
+  width: 150px;
+  margin: 0;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 100%;
+  font-size: 13px;
+  color: #E25544;
+}
+
+.info_content {
+  width: 360px;
+}
+
+.info_content a {
+  text-decoration: none;
+  color: #485268;
+}
+/* #endregion */
+
+/* #region experience */
+.experience {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.experience:first-child {
+  margin-top: 0;
+}
+
+.experience_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.experience_description {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.experience_description a:hover {
+  color: white;
+  background-color: #E25544;
+}
+/* #endregion */
+
+/* #region study */
+.study {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.study:first-child {
+  margin-top: 0;
+}
+
+.study_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.study_description {
+  margin: 0;
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region work experience */
+.work_experience {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.work_experience:first-child {
+  margin-top: 0;
+}
+
+.work_experience_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.work_experience_description {
+  margin: 0;
+  margin-top: 8px;
+  text-align: justify;
+}
+/* #endregion */
+
+/* #region courses */
+.courses {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.courses:first-child {
+  margin-top: 0;
+}
+
+.courses_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.courses_description {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.courses_description a:hover {
+  color: white;
+  background-color: #E25544;
+}
+/* #endregion */
+
+/* #region skills */
+.skills {
+  display: flex;
+}
+
+.skills_list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.skills_item:first-child {
+  margin-top: 0;
+}
+
+.skills_item {
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region tools */
+.tools {
+  display: flex;
+}
+
+.tools_list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.tools_item:first-child {
+  margin-top: 0;
+}
+
+.tools_item {
+  margin-top: 8px;
+}
+/* #endregion */
+
+/* #region additional information */
+.additional_information {
+  margin-top: 24px;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+}
+
+.additional_information:first-child {
+  margin-top: 0;
+}
+
+.additional_information_title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.additional_information_description {
+  margin: 0;
+  margin-top: 8px;
+}
+/* #endregion */
