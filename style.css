@@ -84,7 +84,7 @@ strong {
 }
 
 .info_title {
-  width: 150px;
+  /* width: 150px; */
   margin: 0;
   font-weight: 600;
   font-style: normal;
